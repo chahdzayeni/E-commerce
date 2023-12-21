@@ -1,0 +1,26 @@
+/* styles.css (ou tout autre fichier CSS que vous utilisez) */
+.navbar {
+  background-color: #333; /* Couleur de fond de la barre de navigation */
+  color: #fff; /* Couleur du texte */
+  padding: 10px; /* Espacement interne */
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Aligner les éléments à droite */
+}
+
+.nav-item {
+  margin-right: 20px; /* Espacement entre les éléments du menu */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Style du lien au survol */
+}

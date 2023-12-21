@@ -1,0 +1,29 @@
+<!-- product-add.component.html -->
+
+<h1>Formulaire</h1>
+<form [formGroup]="productAddForm">
+  <label for="nameControl">Nom produit</label><br>
+  <input type="text" id="nameControl" formControlName="nameControl"><br>
+
+  <label for="prixControl">Prix</label><br>
+  <input type="text" id="prixControl" formControlName="prixControl"><br>
+
+  <label for="descriptionControl">Description</label><br>
+  <input type="text" id="descriptionControl" formControlName="descriptionControl"><br>
+
+  <label for="imageControl">Image</label>
+  <input type="file" id="imageControl" formControlName="imageControl"><br>
+
+  <select id="categorieControl" formControlName="categorieControl">
+    <option value="" default>Categorie</option>
+    <option value="collier Belle brune">collier Belle brune</option>
+    <option value="COLLIER dore">COLLIER dore</option>
+    <option value="Armin Collier">Armin Collier</option>
+  </select><br>
+
+  <input type="button" value="Ajouter" (click)="createProduct()">
+  
+
+</form>
+<a [routerLink]="'/gest'">Retour à la gestion des produits</a>
+

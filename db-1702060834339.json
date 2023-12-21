@@ -1,0 +1,27 @@
+{
+  "produits": [
+    {
+      "id": "1",
+      "nom": "prod1",
+      "prix": "150 DT",
+      "categId": "Categ1",
+      "image": "/assets/prod1.jpg",
+      "description": "pointure de 22 à 34"
+    },
+    {
+      "id": "2",
+      "nom": "prod2",
+      "prix": "50 DT",
+      "categId": "Categ1",
+      "image": "/assets/prod2.jpg",
+      "description": "taille de 36 à 48"
+    },
+    {
+      "id": "3",
+      "nom": "prod3",
+      "prix": "56 DT",
+      "categId": "Categ2",
+      "image": "/assets/prod3.jpg"
+    }
+  ]
+}

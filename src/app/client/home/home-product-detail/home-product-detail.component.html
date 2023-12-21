@@ -1,0 +1,23 @@
+<!-- HomeProductDetailComponent template -->
+<div class="modal fade modal-fullscreen" id="modal" *ngIf="productSelected">
+    <div class="modal-dialog">
+        <div class="modal-content child-container"> <!-- Ajoutez la classe child-container ici -->
+            <div class="modal-header">
+                <h1>{{productSelected.nom}} </h1>
+                <button type="btn" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img [src]="productSelected.image" alt="" class="image-produit"><br>
+                <span class="nom-produit">
+                    {{productSelected.description}}
+                </span><br>
+                <span class="product-price prix-produit">
+                    Prix: {{productSelected.prix}}
+                </span> <br>
+            </div>
+        </div>
+    </div>
+</div>
+

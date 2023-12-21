@@ -1,0 +1,14 @@
+<!-- HomeProductsComponent template -->
+<h1>{{title}}</h1>
+
+<section>
+    <div *ngFor="let prod of produits">
+        <img [src]='prod.image' alt="" (click)="selectProduct(prod)"><br>
+        <h3>{{prod.nom}}</h3> <br>
+        <span class="product-price">prix: {{prod.prix}}</span> <br>
+        <button class="btn btn-details" data-bs-toggle="modal" data-bs-target="#modal" *ngIf="prod.description" (click)="onDetail(prod)">Details</button>
+   </div>
+   <app-home-product-detail [productSelected]="productSelected"></app-home-product-detail>
+</section>
+
+    

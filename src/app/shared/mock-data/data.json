@@ -1,0 +1,114 @@
+{
+  "produits": [
+    {
+      "id": "1",
+      "nom": "collier1",
+      "prix": "150 DT",
+      "categId": "Categ1",
+      "image": "/assets/collier1.jpg",
+      "description": "pointure de 22 à 34"
+    },
+    {
+      "id": "2",
+      "nom": "collier2",
+      "prix": "50 DT",
+      "categId": "Categ1",
+      "image": "/assets/collier2.jpeg",
+      "description": "taille de 36 à 48"
+    },
+    {
+      "id": "3",
+      "nom": "collier3",
+      "prix": "56 DT",
+      "categId": "Categ2",
+      "image": "/assets/collier3.jpg"
+    },
+    {
+      "id": "4",
+      "nom": "Nouveau Produit",
+      "categId": "1",
+      "image": "/assets/collier3.jpg",
+      "prix": "56 DT"
+    },
+    {
+      "id": "5",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/jj.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "6",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/c.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "7",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/cc.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "8",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/ssss.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "9",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/sss.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "10",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/ss.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "11",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/s.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "12",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/jj.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "13",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/x.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    },
+    {
+      "id": "14",
+      "nom": "Collier hand med",
+      "prix": "10dt",
+      "categId": "C3",
+      "image": "assets/vvv.jpg",
+      "description": "Marque :  Sexe: Femmes:  Taille du Collier: Comme la photo"
+    }
+  ]
+}

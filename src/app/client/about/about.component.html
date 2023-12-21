@@ -1,0 +1,31 @@
+<!-- contact.component.html -->
+<div class="container">
+    <h2>Contact Us</h2>
+    <div class="form-container">
+      <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name:</label>
+          <input type="text" id="name" name="name" class="form-control" [(ngModel)]="formData.name" required>
+        </div>
+  
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email:</label>
+          <input type="email" id="email" name="email" class="form-control" [(ngModel)]="formData.email" required>
+        </div>
+  
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message:</label>
+          <textarea id="message" name="message" class="form-control" [(ngModel)]="formData.message" required></textarea>
+        </div>
+  
+        <button type="submit" class="btn btn-primary" (click)="submitForm()">Submit</button>
+      </form>
+    </div>
+    <a href="https://www.facebook.com/chahd.zayeni.50?mibextid=ZbWKwL" target="_blank">
+        <img src="assets/fcb.png" alt="Facebook Logo" class="facebook-logo"><br>
+    </a>
+    <a href="https://instagram.com/chahdza?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+        <img src="assets/insta.jpeg" alt="instagram Logo" class="facebook-logo">
+      </a>
+  </div>
+  

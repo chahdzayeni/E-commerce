@@ -1,0 +1,23 @@
+.child-container {
+  position: fixed;
+  top: 100px; /* Réglez la distance par rapport au haut */
+  right: 10px; /* Réglez la distance par rapport à la droite */
+  width: 300px;
+  height: 350px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #dadfdf;
+}
+
+.image-produit {
+  width: 200px;
+  height: 200px;
+}
+
+.nom-produit {
+  font-weight: bold;
+}
+
+.prix-produit {
+  color: #007bff;
+}
